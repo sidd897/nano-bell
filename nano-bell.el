@@ -74,11 +74,11 @@
 
   (let* ((width (frame-pixel-width parent))
          (height (frame-pixel-height parent)))
-    (modify-frame-parameters frame `((top . 24)
-                                     (left . 24)
+    (modify-frame-parameters frame `((top . 27)
+                                     (left . 27)
                                      (background-color . ,nano-bell-color)
                                      (height . (text-pixels . 26))
-                                     (width  . (text-pixels . ,(- width 48)))))))
+                                     (width  . (text-pixels . ,(- width 54)))))))
 
 (defun nano-bell-root-frame (frame)
   (let* ((root frame)
